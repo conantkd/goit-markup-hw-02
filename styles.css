@@ -34,12 +34,6 @@ header {
   background-color: #fff;
   width: 1600px;
   height: 80px;
-  border: 2px solid #000;
-}
-
-h1 {
-    display: inline-block;
-    position: absolute;
 }
 
 .header-style a {
@@ -56,28 +50,28 @@ h1 {
 }
 
 .nav-header {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 #nav-bar {
   left: 453px;
-  top: 32px;position: absolute;
+  top: 32px;
+  position: absolute;
 }
 
 #nav-bar li:first-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 #nav-bar li {
   display: inline-block;
   margin-left: 50px;
   margin-right: 0;
-  height: 16px;}
-
-
+  height: 16px;
+}
 
 #contact-header {
-  margin-top:0;
+  margin-top: 32;
   height: 16px;
   margin-left: 1078px;
   vertical-align: middle;
@@ -85,8 +79,49 @@ h1 {
 
 #contact-header li {
   display: inline-block;
-  margin-left: 10px;}
+  margin-left: 10px;
+}
 
 #contact-header li:first-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
+
+.banner-top {
+  background-color: #2f303a;
+  box-shadow: 0px 2px 4px #2f303a;
+  top: 80px;
+  width: 1600px;
+  height: 600px;
+  position: absolute;
+}
+
+h2 {
+  font-size: 44px;
+  color: #fff;
+  font-weight: 900;
+  padding-top: 200px;
+  padding-left: 452px;
+  width: 696px;
+  height: 120px;
+  text-align: center;
+}
+
+button {
+  background-color: #2196f3;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  border: 0px;
+  border-radius: 4px;
+  position: absolute;
+  width: 261px;
+  height: 50px;
+  left: 666px;
+  top: 350px;
+  
+}
+
+
+
