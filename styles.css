@@ -1,39 +1,92 @@
-@import "node_modules/modern-normalize/modern-normalize.css";
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  color:#000
+  color: #000;
 }
 
-ul{
-    list-style: none;
+.no-bullets {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
   color: #000;
 }
-a:hover {
-    text-decoration: underline;
-    
-}
+
 a:visited {
   text-decoration: none;
   color: #000;
 }
 
-header.page-header {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
+a:hover,
+a:focus {
+  text-decoration-color: #2196f3;
   color: #2196f3;
+  border: none;
 }
 
-#title-style h1{
+header {
+  background-color: #fff;
+  width: 1600px;
+  height: 80px;
+  border: 2px solid #000;
+}
+
+h1 {
+    display: inline-block;
+    position: absolute;
+}
+
+.header-style a {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
   color: #2196f3;
+  display: inline-block;
+  left: 215px;
+  top: 24px;
+  width: 145px;
+  height: 31px;
+  position: absolute;
+}
+
+.nav-header {
+    margin-top: 32px;
+}
+
+#nav-bar {
+  left: 453px;
+  top: 32px;position: absolute;
+}
+
+#nav-bar li:first-of-type {
+    margin-left: 0;
+}
+
+#nav-bar li {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 0;
+  height: 16px;}
+
+
+
+#contact-header {
+  margin-top:0;
+  height: 16px;
+  margin-left: 1078px;
+  vertical-align: middle;
+}
+
+#contact-header li {
+  display: inline-block;
+  margin-left: 10px;}
+
+#contact-header li:first-of-type {
+    margin-left: 0;
 }
