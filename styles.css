@@ -133,6 +133,12 @@ section.banner-top > h2 {
   top: 350px;
 }
 
+.banner-button:hover, .banner-button:focus 
+  {
+    background-color: #188CE8;
+    cursor: pointer;
+}
+
 .work-solutions {
   padding-top: 695px;
   margin-left: 215px;
