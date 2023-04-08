@@ -30,7 +30,7 @@ a:focus {
   border: none;
 }
 
-header {
+.page-header {
   background-color: #fff;
   width: 1600px;
   height: 80px;
@@ -133,7 +133,7 @@ section.banner-top > h2 {
 }
 
 .work-solutions {
-  margin-top: 775px;
+  padding-top: 695px;
   margin-left: 215px;
   width: 1170px;
   height: 122px;
@@ -167,4 +167,83 @@ section.work-solutions li p {
 
 .work-solutions li:first-of-type {
   padding-left: 0px;
+}
+
+.work-graphics {
+  top: 991px;
+  left: 215px;
+  position:absolute;
+  text-align: center;
+}
+
+section.work-graphics >  h2 {
+    font-size:  36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    padding-bottom: 55px;
+}
+
+.work-graphics ul {
+    display: flex;
+  flex-wrap: nowrap;
+}
+
+.work-graphics li {
+    flex: 0 0 270px;
+    height: auto;
+    padding-left: 30px;
+  }
+
+.team {
+    height: 648px;
+    width: 1600px;
+    background-color: #F5F4FA;
+    top: 1510px;
+    position: absolute;
+}
+
+.team h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3%;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.team h3 {
+    font-size: 16px;
+    color: #212121;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.team p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.team ul {
+    display: flex;
+    flex-wrap: no wrap;
+    padding-left: 208px;
+    text-align: center;
+}
+
+.team li {
+    flex: 0 0 270px;
+    margin-left: 37px;
+    height: 368px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    box-shadow: 2px 2px 10px 2px #00000028;
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.team li:first-of-type {
+    margin-left: 0px;
 }
