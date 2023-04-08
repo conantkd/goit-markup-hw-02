@@ -58,6 +58,12 @@ ul.contact-header li a {
   letter-spacing: 0.02em;
 }
 
+
+ul.contact-header li a:hover,
+ul.contact-header li a:focus {
+  text-decoration-color: #2196f3;
+  color: #2196f3;}
+
 /*index web*/
 
 .banner-top {
@@ -82,7 +88,7 @@ section.banner-top > h2 {
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  align: center;
+  text-align: center;
   color: #fff;
   border: 0px;
   border-radius: 4px;
