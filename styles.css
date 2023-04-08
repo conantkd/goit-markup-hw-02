@@ -16,6 +16,7 @@ body {
 a {
   text-decoration: none;
   color: #000;
+  font-style: normal;
 }
 
 a:visited {
@@ -55,8 +56,8 @@ a:focus {
 
 #nav-bar {
   font-size: 14px;
-  line-height: auto;
-  letter-spacing: 2%;
+  line-height: normal;
+  letter-spacing: 0.02em;
   left: 453px;
   top: 32px;
   position: absolute;
@@ -75,9 +76,9 @@ a:focus {
 
 #contact-header {
   font-size: 14px;
-  line-height: auto;
-  letter-spacing: 2%;
-  margin-top: 32;
+  line-height: normal;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
   height: 16px;
   margin-left: 1078px;
   vertical-align: middle;
@@ -106,7 +107,7 @@ section.banner-top > h2 {
   color: #fff;
   font-weight: 900;
   line-height: 60px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   padding-top: 200px;
   padding-left: 452px;
   width: 696px;
@@ -120,7 +121,7 @@ section.banner-top > h2 {
   font-family: inherit;
   font-weight: 700;
   line-height: 30px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
   border: 0px;
@@ -142,14 +143,14 @@ section.banner-top > h2 {
 section.work-solutions li h2 {
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   padding-bottom: 10px;
 }
 
 section.work-solutions li p {
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   line-height: 24px;
 }
 
@@ -172,78 +173,126 @@ section.work-solutions li p {
 .work-graphics {
   top: 991px;
   left: 215px;
-  position:absolute;
+  position: absolute;
   text-align: center;
 }
 
-section.work-graphics >  h2 {
-    font-size:  36px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 3%;
-    padding-bottom: 55px;
+section.work-graphics > h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  padding-bottom: 55px;
 }
 
 .work-graphics ul {
-    display: flex;
+  display: flex;
   flex-wrap: nowrap;
 }
 
 .work-graphics li {
-    flex: 0 0 270px;
-    height: auto;
-    padding-left: 30px;
-  }
+  flex: 0 0 270px;
+  height: auto;
+  padding-left: 30px;
+}
 
 .team {
-    height: 648px;
-    width: 1600px;
-    background-color: #F5F4FA;
-    top: 1510px;
-    position: absolute;
+  height: 648px;
+  width: 1600px;
+  background-color: #f5f4fa;
+  top: 1510px;
+  position: absolute;
 }
 
 .team h2 {
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 3%;
-    padding-top: 94px;
-    padding-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .team h3 {
-    font-size: 16px;
-    color: #212121;
-    padding-top: 30px;
-    padding-bottom: 10px;
+  font-size: 16px;
+  color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
 }
 
 .team ul {
-    display: flex;
-    flex-wrap: no wrap;
-    padding-left: 208px;
-    text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 208px;
+  text-align: center;
 }
 
 .team li {
-    flex: 0 0 270px;
-    margin-left: 37px;
-    height: 368px;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FFF;
-    box-shadow: 2px 2px 10px 2px #00000028;
-    border-radius: 0px 0px 4px 4px;
-
+  flex: 0 0 270px;
+  margin-left: 37px;
+  height: 368px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px 2px #00000028;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team li:first-of-type {
-    margin-left: 0px;
+  margin-left: 0px;
 }
+
+.footer-bar {
+  background-color: #2f303a;
+  font-style: normal;
+  color:  #FFFFFF99;
+  width: 1600px;
+  height: 252px;
+  top: 2158px;
+  position: absolute;
+}
+
+.footer-title {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2196f3;
+  padding-top: 60px;
+  padding-bottom: 9px;
+  padding-left: 215px;
+  position: absolute;
+}
+
+.footer-adress {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #FFF;
+    line-height: 1.71em;
+    padding-top:100px ;
+    padding-left: 215px;
+}
+
+#footer-mail-tel {
+    font-size: 14px;
+    color: #FFFFFF99;
+    letter-spacing: 0.03em;
+    line-height: 1.71em;
+    padding-left: 215px;
+}
+
+#footer-mail-tel a {
+    color: #FFFFFF99;
+}
+
+#footer-mail-tel a:hover,
+#footer-mail-tel a:focus {
+    color: #2196f3;
+    text-decoration-color: #2196f3;
+    border: none;
+  }
