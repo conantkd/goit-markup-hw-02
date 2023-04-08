@@ -54,6 +54,9 @@ header {
 }
 
 #nav-bar {
+  font-size: 14px;
+  line-height: auto;
+  letter-spacing: 2%;
   left: 453px;
   top: 32px;
   position: absolute;
@@ -71,6 +74,9 @@ header {
 }
 
 #contact-header {
+  font-size: 14px;
+  line-height: auto;
+  letter-spacing: 2%;
   margin-top: 32;
   height: 16px;
   margin-left: 1078px;
@@ -95,10 +101,12 @@ header {
   position: absolute;
 }
 
-h2 {
+section.banner-top > h2 {
   font-size: 44px;
   color: #fff;
   font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 6%;
   padding-top: 200px;
   padding-left: 452px;
   width: 696px;
@@ -106,11 +114,13 @@ h2 {
   text-align: center;
 }
 
-button {
+.banner-button {
   background-color: #2196f3;
   font-size: 16px;
   font-family: inherit;
   font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 6%;
   text-align: center;
   color: #fff;
   border: 0px;
@@ -120,8 +130,41 @@ button {
   height: 50px;
   left: 666px;
   top: 350px;
-  
 }
 
+.work-solutions {
+  margin-top: 775px;
+  margin-left: 215px;
+  width: 1170px;
+  height: 122px;
+  position: relative;
+}
+section.work-solutions li h2 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3%;
+  padding-bottom: 10px;
+}
 
+section.work-solutions li p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 3%;
+  line-height: 24px;
+}
 
+.work-solutions ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+}
+
+.work-solutions li {
+  flex: 0 0 270px;
+  height: auto;
+  padding-left: 30px;
+}
+
+.work-solutions li:first-of-type {
+  padding-left: 0px;
+}
