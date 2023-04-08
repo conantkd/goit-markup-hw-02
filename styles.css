@@ -251,7 +251,7 @@ section.work-graphics > h2 {
 .footer-bar {
   background-color: #2f303a;
   font-style: normal;
-  color:  #FFFFFF99;
+  color: #ffffff99;
   width: 1600px;
   height: 252px;
   top: 2158px;
@@ -270,29 +270,29 @@ section.work-graphics > h2 {
 }
 
 .footer-adress {
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: #FFF;
-    line-height: 1.71em;
-    padding-top:100px ;
-    padding-left: 215px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  line-height: 1.71em;
+  padding-top: 100px;
+  padding-left: 215px;
 }
 
 #footer-mail-tel {
-    font-size: 14px;
-    color: #FFFFFF99;
-    letter-spacing: 0.03em;
-    line-height: 1.71em;
-    padding-left: 215px;
+  font-size: 14px;
+  color: #ffffff99;
+  letter-spacing: 0.03em;
+  line-height: 1.71em;
+  padding-left: 215px;
 }
 
 #footer-mail-tel a {
-    color: #FFFFFF99;
+  color: #ffffff99;
 }
 
 #footer-mail-tel a:hover,
 #footer-mail-tel a:focus {
-    color: #2196f3;
-    text-decoration-color: #2196f3;
-    border: none;
-  }
+  color: #2196f3;
+  text-decoration-color: #2196f3;
+  border: none;
+}
